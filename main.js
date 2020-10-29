@@ -1,5 +1,11 @@
-console.log("Hello World");
-i = 10;
-// for (let i = 1; i < 11; i++) {
-//          console.log(i);                  
-// }
+//Reccursion
+function pow(x,n){
+         if(n==1){
+                  return x;
+         }
+         else{
+                  return x* pow(x, n-1);
+         }
+
+}
+console.log(pow(2,4));
